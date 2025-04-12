@@ -1,0 +1,10 @@
+1. cd git_challenge
+2. echo "Hello,world!" > hello_world.txt
+3. git add hello_world.txt
+4. git commit -m "hello_world.txtを追加"
+5. echo "こんにちは、世界！" >> hello_world.txt
+6. git add hello_world.txt
+7. git commit -m "日本語訳を追加"
+8. git log --oneline
+9. mkdir "kadai_005"
+10. echo "" > kadai_005/kadai_005.txt
